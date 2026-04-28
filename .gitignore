@@ -1,0 +1,30 @@
+# --- Unreal Engine 관련 ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 에셋 데이터 중 빌드된 데이터 무시
+*_BuiltData.uasset
+
+# --- Visual Studio / IDE 관련 ---
+.vs/
+.vsconfig
+*.sln
+*.suo
+*.xsd
+*.user
+*.pdf
+*.err
+*.pbd
+*.pdb
+*.VC.db
+*.VC.opendb
+
+# --- 기타 OS 및 로그 ---
+.DS_Store
+*.log
+
+# --- Rider 관련 (Rider 쓰시면 필요) ---
+.idea/
